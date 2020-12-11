@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  border-top: 2px solid rgba(10, 180, 180, 1);
+}
+
+.input {
+  margin: 15px 45px;
+  font-size: 16px;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, 0.2);
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, 0.6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.sendButton:hover {
+  background: rgb(0, 0, 0);
+}
